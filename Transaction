@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T08:26:00.030Z" agent="5.0 (Macintosh)" version="16.4.7" etag="34TwqcjBS5irgNYaALH2" type="github"><diagram id="dwQ8OQAsh_Zh_c0eJgRk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-27T10:01:23.685Z" agent="5.0 (Macintosh)" etag="8qMddYQZin3h5S13D61l" version="16.4.7" type="github">
+  <diagram id="dwQ8OQAsh_Zh_c0eJgRk" name="第 1 页">
+    <mxGraphModel dx="1288" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-1" target="SWF_iPe4P2l1unhjBbPr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-4" value="@Import" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SWF_iPe4P2l1unhjBbPr-3">
+          <mxGeometry x="0.025" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-1" value="&lt;div&gt;EnableTransactionManager&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="10" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-2" target="SWF_iPe4P2l1unhjBbPr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-2" value="&lt;div&gt;TransactionManagementConfigurationSelector&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-217.5" y="150" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-5" target="SWF_iPe4P2l1unhjBbPr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-20" value="&lt;div&gt;@Bean&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SWF_iPe4P2l1unhjBbPr-13">
+          <mxGeometry x="-0.0762" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-5" value="&lt;div&gt;ProxyTransactionManagementConfiguraton&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-227.5" y="290" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-236.25" y="430" width="282.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-12" value="" style="swimlane;startSize=0;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#d79b00;fillColor=#ffe6cc;html=1;flipH=1;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-19">
+          <mxGeometry width="282.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-17" value="&lt;div&gt;BeanFactoryTransactionAttributeSourceAdvisor&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-12">
+          <mxGeometry x="1.25" y="65" width="280" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-15" value="&lt;div&gt;TransactionAttributeSource&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;flipH=1;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-19">
+          <mxGeometry x="1.25" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-18" value="TransactionInterceptor" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;flipH=1;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-19">
+          <mxGeometry x="1.25" y="130" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-23" value="getTransaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-21" target="SWF_iPe4P2l1unhjBbPr-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-21" value="TransactionManager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-22" value="TransactionStatus" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="370" y="-40" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-24" value="TransactionAttribute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-29">
+          <mxGeometry y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-26" value="TransactionDefinition" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-29">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SWF_iPe4P2l1unhjBbPr-29" source="SWF_iPe4P2l1unhjBbPr-24" target="SWF_iPe4P2l1unhjBbPr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-28" value="" style="swimlane;startSize=0;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-29">
+          <mxGeometry width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-33" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-35" value="" style="swimlane;startSize=0;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-33">
+          <mxGeometry x="20" y="40" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-36" value="ConnectionHolder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-35">
+          <mxGeometry y="20" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-38" value="Connection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-35">
+          <mxGeometry x="25" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-34" value="Transaction" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-33">
+          <mxGeometry y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-40" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="215" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-41" value="TransactionSynchronizationManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-40">
+          <mxGeometry x="2.5" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-42" value="ThreadLocal&amp;lt;Map&amp;lt;Object,&lt;font color=&quot;#FF6666&quot;&gt;Object&lt;/font&gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-40">
+          <mxGeometry y="50" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-36" target="SWF_iPe4P2l1unhjBbPr-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
