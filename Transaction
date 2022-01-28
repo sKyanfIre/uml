@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T16:28:54.245Z" agent="5.0 (Macintosh)" etag="SVK5J6Wh5PG5xvCLJ4ed" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T16:44:20.238Z" agent="5.0 (Macintosh)" etag="fSGA4RwmbG0kt3cw_h5A" version="16.4.7" type="github">
   <diagram id="dwQ8OQAsh_Zh_c0eJgRk" name="第 1 页">
-    <mxGraphModel dx="1646" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,13 +13,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-1" value="&lt;div&gt;EnableTransactionManager&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-383.75" y="-110" width="170" height="60" as="geometry" />
+          <mxGeometry x="-263.75" y="-100" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-2" target="SWF_iPe4P2l1unhjBbPr-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-2" value="&lt;div&gt;TransactionManagementConfigurationSelector&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-421.25" y="30" width="245" height="60" as="geometry" />
+          <mxGeometry x="-301.25" y="40" width="245" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-5" target="SWF_iPe4P2l1unhjBbPr-12">
           <mxGeometry relative="1" as="geometry" />
@@ -30,10 +30,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-5" value="&lt;div&gt;ProxyTransactionManagementConfiguraton&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-431.25" y="170" width="265" height="60" as="geometry" />
+          <mxGeometry x="-311.25" y="180" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-19" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-440" y="310" width="282.5" height="190" as="geometry" />
+          <mxGeometry x="-320" y="320" width="282.5" height="190" as="geometry" />
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-12" value="" style="swimlane;startSize=0;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#d79b00;fillColor=#ffe6cc;html=1;flipH=1;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-19">
           <mxGeometry width="282.5" height="190" as="geometry" />
@@ -62,10 +62,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-45" value="DataSource" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="483.33" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="443.33" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-54" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="130" y="310" width="210" height="230" as="geometry" />
+          <mxGeometry x="90" y="310" width="210" height="230" as="geometry" />
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-33" value="" style="swimlane;startSize=0;container=0;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-54">
           <mxGeometry width="210" height="230" as="geometry" />
@@ -114,7 +114,7 @@
         <mxCell id="SWF_iPe4P2l1unhjBbPr-26" value="TransactionDefinition" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;container=0;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-77">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SWF_iPe4P2l1unhjBbPr-55" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="SWF_iPe4P2l1unhjBbPr-73" source="SWF_iPe4P2l1unhjBbPr-67" target="SWF_iPe4P2l1unhjBbPr-28">
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-55" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontColor=#000000;entryX=1;entryY=0.875;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="SWF_iPe4P2l1unhjBbPr-73" source="SWF_iPe4P2l1unhjBbPr-67" target="SWF_iPe4P2l1unhjBbPr-26">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="-80" y="240" as="sourcePoint" />
             <mxPoint x="-130" y="120" as="targetPoint" />
@@ -166,7 +166,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-84" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="490" y="280" width="280" height="170" as="geometry" />
+          <mxGeometry x="450" y="280" width="280" height="170" as="geometry" />
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-40" value="" style="swimlane;startSize=0;container=0;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-84">
           <mxGeometry width="280" height="170" as="geometry" />
@@ -186,14 +186,10 @@
         <mxCell id="SWF_iPe4P2l1unhjBbPr-51" value="Value" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" vertex="1" parent="SWF_iPe4P2l1unhjBbPr-84">
           <mxGeometry x="160" y="140" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SWF_iPe4P2l1unhjBbPr-86" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF6666;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-17" target="SWF_iPe4P2l1unhjBbPr-73">
+        <mxCell id="SWF_iPe4P2l1unhjBbPr-86" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF6666;exitX=-0.004;exitY=0.828;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SWF_iPe4P2l1unhjBbPr-12" target="SWF_iPe4P2l1unhjBbPr-73">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-130" y="440" as="sourcePoint" />
             <mxPoint x="-80" y="390" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-120" y="390" />
-              <mxPoint x="-130" y="390" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SWF_iPe4P2l1unhjBbPr-87" value="ThreadLocal&amp;lt;TransactionInfo&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF6666;" vertex="1" connectable="0" parent="SWF_iPe4P2l1unhjBbPr-86">
