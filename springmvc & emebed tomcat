@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T10:41:12.489Z" agent="5.0 (Macintosh)" version="16.5.2" etag="Y0f09RUaFqhUIrfANi2O" type="github"><diagram id="no3a6AD8FImvAybm9zhi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-14T14:48:00.271Z" agent="5.0 (Macintosh)" etag="cFiYgeJc72M4qDmnLXZa" version="16.5.2" type="github">
+  <diagram id="no3a6AD8FImvAybm9zhi" name="第 1 页">
+    <mxGraphModel dx="946" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IeGFsL89CJ8-nzoH9l4l-1" value="ApplicationFilterChain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGFsL89CJ8-nzoH9l4l-2" value="Filter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGFsL89CJ8-nzoH9l4l-3" value="GenericFilterBean" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="165" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGFsL89CJ8-nzoH9l4l-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.442;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IeGFsL89CJ8-nzoH9l4l-1" target="IeGFsL89CJ8-nzoH9l4l-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="460" as="sourcePoint" />
+            <mxPoint x="510" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeGFsL89CJ8-nzoH9l4l-5" value="&lt;div&gt;doFilter&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IeGFsL89CJ8-nzoH9l4l-4">
+          <mxGeometry x="-0.2623" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeGFsL89CJ8-nzoH9l4l-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IeGFsL89CJ8-nzoH9l4l-2" target="IeGFsL89CJ8-nzoH9l4l-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="480" as="sourcePoint" />
+            <mxPoint x="225" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeGFsL89CJ8-nzoH9l4l-10" value="&lt;div&gt;doService&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IeGFsL89CJ8-nzoH9l4l-6">
+          <mxGeometry x="-0.15" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IeGFsL89CJ8-nzoH9l4l-7" value="Servlet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="460" width="135" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IeGFsL89CJ8-nzoH9l4l-11" value="DispatcherServlet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="165" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
